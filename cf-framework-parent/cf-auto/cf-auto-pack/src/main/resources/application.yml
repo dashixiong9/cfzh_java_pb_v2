@@ -1,0 +1,22 @@
+server:
+  port: ${PORT:8079}
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: cf-auto-pack
+  redis:
+    host: 203.195.208.183
+    port: 6379
+    password: redis_password
+    database: 0
+    jedis:
+      pool:
+        maxActive: 3
+        maxIdle: 3
+        minIdle: 1
+        maxWait: -1
+
+
+
+
