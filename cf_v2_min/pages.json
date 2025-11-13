@@ -1,0 +1,729 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "富康商业智慧停车场",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"h5": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationBarBackgroundColor": "#488CF5",
+				"navigationBarTextStyle": "white", 
+				"h5": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/my/myCar/myCar",
+			"style": {
+				"navigationBarTitleText": "我的爱车",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/my/set/changePhone/index",
+			"style": {
+				"navigationBarTitleText": "手机号",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/set/changePhone/bind",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				},
+				"mp-weixin": {
+					"usingComponents": {
+						"t-captcha": "plugin://myPlugin/t-captcha"
+					}
+				}
+			}
+		},
+
+		{
+			"path": "pages/my/parkingCard/index",
+			"style": {
+				"navigationBarTitleText": "我的停车卡",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/monthlyCard/pay",
+			"style": {
+				"navigationBarTitleText": "购买月卡",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/monthlyCard/packageOptions",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#4A4949",
+				"navigationBarTextStyle": "white",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/nearbyParkingLot",
+			"style": {
+				"navigationBarTitleText": "附近停车场",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/monthlyCard/selectLicensePlate",
+			"style": {
+				"navigationBarTitleText": "选择车牌",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+
+		{
+			"path": "pages/index/parkInfo",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationBarBackgroundColor": "#7EC0FB",
+				"navigationBarTextStyle": "white",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/myCar/addCar",
+			"style": {
+				"navigationBarTitleText": "绑定车牌",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/monthlyCard/index",
+			"style": {
+				"navigationBarTitleText": "开通月卡",
+				"navigationBarBackgroundColor": "#494949",
+				"navigationBarTextStyle": "white",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/myParkingRecord/myParkingRecord",
+			"style": {
+				"navigationBarTitleText": "停车记录",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/myCoupon/myCoupon",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/myCoupon/couponDetail",
+			"style": {
+				"navigationBarTitleText": "优惠券详情",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/feedback",
+			"style": {
+				"navigationBarTitleText": "客服",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/search/searchRes",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/replacePay/replacePay",
+			"style": {
+				"navigationBarTitleText": "临停缴费",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/replacePay/replacePayOrder",
+			"style": {
+				"navigationBarTitleText": "临停订单",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/replacePay/pay",
+			"style": {
+				"navigationBarTitleText": "支付停车费",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/myBill/index",
+			"style": {
+				"navigationBarTitleText": "我的账单",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/set/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/set/changeName",
+			"style": {
+				"navigationBarTitleText": "修改昵称",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/monthlyCard/selectParkingLot",
+			"style": {
+				"navigationBarTitleText": "选择停车场",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/scanCode/index",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FAFCFF",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/myCar/carCoupon",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/monthlyCard/entranceAndExitList",
+			"style": {
+				"navigationBarTitleText": "出入口",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+
+		, {
+			"path": "pages/my/myBill/detail",
+			"style": {
+				"navigationBarTitleText": "账单详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"h5": {
+					"titleNView": false
+				}
+
+			}
+
+		}, {
+			"path": "pages/my/checkLicensePlate/enter",
+			"style": {
+				"navigationBarTitleText": "输入车牌",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"h5": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/my/checkLicensePlate/result",
+			"style": {
+				"navigationBarTitleText": "车辆信息",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"h5": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/my/checkLicensePlate/resultList",
+			"style": {
+				"navigationBarTitleText": "选择停车场",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/myWallet/myWallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"h5": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/my/myWallet/recharge",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"h5": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/authorize/authorize",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"h5": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/webView/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/checkCoupon",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/charge/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"h5": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/my/replacePay/getClipboard",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		}, {
+			"path": "pages/index/Charges",
+			"style": { 
+				"navigationBarTitleText": "收费标准",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		}, {
+			"path": "pages/my/myParkingRecord/parkingRecordInfo",
+			"style": {
+				"navigationBarTitleText": "停车详情",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+
+		}
+	    ,{
+            "path" : "pages/charge/electricBicycleDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#7EC0FB",
+				"navigationBarTextStyle": "white",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myCoupon/getCoupon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "领取优惠券",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [{
+			"root": "couponModule",
+			"pages": [{
+					"path": "pages/my/shopkeeper/qrCode",
+					"style": {
+						"navigationBarTitleText": "停车劵二维码",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/editStaff",
+					"style": {
+						"navigationBarTitleText": "员工管理",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/index",
+					"style": {
+						"navigationBarTitleText": "购买&分发停车券",
+						"navigationBarTextStyle": "white",
+						"navigationBarBackgroundColor": "#488cf5"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/buyParkingTicket",
+					"style": {
+						"navigationBarTitleText": "购买停车券",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/setParkingTicket/index",
+					"style": {
+						"navigationBarTitleText": "设置停车券",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/shopAssistant/add",
+					"style": {
+						"navigationBarTitleText": "输入用户ID",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/shopAssistant/setRemarks",
+					"style": {
+						"navigationBarTitleText": "设置备注",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/shopAssistant/setSendCoupons",
+					"style": {
+						"navigationBarTitleText": "设置发券量",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/shopAssistant/detail",
+					"style": {
+						"navigationBarTitleText": "添加店员",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/sendCouponsList",
+					"style": {
+						"navigationBarTitleText": "每日送券细名",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/setParkingTicket/add",
+					"style": {
+						"navigationBarTitleText": "添加停车券",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				{
+					"path": "pages/my/shopkeeper/giveAway",
+					"style": {
+						"navigationBarTitleText": "赠送停车券",
+						"navigationBarTextStyle": "black",
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+				},
+				// 员工分发停车券
+				{
+					"path": "pages/my/shopAssistant/index",
+					"style": {
+						"navigationBarTitleText": "分发停车券",
+						"navigationBarBackgroundColor": "#488CF5",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "pages/my/emergencyAccess/emergencyOrderDetail",
+					"style": {
+						"navigationBarTitleText": "应急入闸",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/my/emergencyAccess/recognitionResult",
+					"style": {
+						"navigationBarTitleText": "识别车牌",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/my/emergencyAccess/index",
+					"style": {
+						"navigationBarTitleText": "应急出闸",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/my/emergencyAccess/imageClipper",
+					"style": {
+						"navigationBarTitleText": " ",
+						"navigationBarBackgroundColor": "#000000",
+						"navigationBarTextStyle": "black"
+					}
+				}
+			]
+		},
+		{
+			"root": "chargeModule",
+			"pages": [{
+					"path": "pages/buyingPower/index",
+					"style": {
+						"navigationBarTitleText": "电动汽车充电",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/orderDetail/index",
+					"style": {
+						"navigationBarTitleText": "订单详情",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/charging/index",
+					"style": {
+						"navigationBarTitleText": "",
+						"navigationBarBackgroundColor": "#488CF5",
+						"navigationBarTextStyle": "white"
+					}
+				},
+				{
+					"path": "pages/receiveParkingTicket/index",
+					"style": {
+						"navigationBarTitleText": "领取优惠券",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/chargingPileInfo/index",
+					"style": {
+						"navigationBarTitleText": "充电桩信息",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/search/index",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				},
+				{
+					"path": "pages/search/searchRes",
+					"style": {
+						"navigationBarTitleText": "搜索结果",
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTextStyle": "black"
+					}
+				}, {
+					"path": "pages/chargingRecord/index",
+					"style": {
+						"navigationBarTitleText": "充电记录",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#FFFFFF"
+					}
+
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#488cf5",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/tabbar/home.png",
+				"selectedIconPath": "static/image/tabbar/home_ac.png",
+				"text": "停车"
+			}, {
+				"pagePath": "pages/charge/index",
+				"iconPath": "static/image/tabbar/charge.png",
+				"selectedIconPath": "static/image/tabbar/charge_ac.png",
+				"text": "充电"
+			}, {
+				"pagePath": "pages/monthlyCard/index",
+				"iconPath": "static/image/tabbar/vip.png",
+				"selectedIconPath": "static/image/tabbar/vip_ac.png",
+				"text": "月卡"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/image/tabbar/my.png",
+				"selectedIconPath": "static/image/tabbar/my_ac.png",
+				"text": "我的"
+			}
+		]
+	}
+}
